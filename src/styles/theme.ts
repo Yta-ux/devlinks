@@ -1,5 +1,6 @@
 const theme = {
   dark: {
+    title: "dark",
     background: "#121116",
     text: "#ffffff",
     stroke: "#888889",
@@ -11,6 +12,7 @@ const theme = {
   },
 
   light: {
+    title: "light",
     text: "#000000",
     background: "#ffffff",
     stroke: "#808080",
