@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 const Container = styled.a`
-  background-color: ${(props) => props.theme.surface};
+  background: transparent;
   border: 1px solid ${(props) => props.theme.stroke};
   display: flex;
   justify-content: center;

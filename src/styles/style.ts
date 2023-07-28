@@ -8,7 +8,7 @@ const Container = styled.div`
   align-content: center;
   justify-items: center;
   margin: auto;
-  width: 40%;
+  width: 80%;
 
   padding-top: 5.6rem;
 
@@ -22,7 +22,7 @@ const Container = styled.div`
     top: -160px;
     background: radial-gradient(circle, rgba(54,57,96,0.804359243697479) 14%, rgba(70,62,114,1) 16%, rgba(241,184,237,0.678) 25%);
     position: absolute;
-    z-index: 1;
+    z-index: -1;
   }
 
   & > .gradient2{
@@ -34,7 +34,11 @@ const Container = styled.div`
     bottom: -160px;
     background: radial-gradient(circle, rgba(241,184,237,1) 3%, rgba(70,62,114,1) 23%, rgba(54,57,96,0.804359243697479) 73%);
     position: absolute;
-    z-index: 1;
+    z-index: -1;
+  }
+
+  @media (min-width: 980px){
+    width: 40%;
   }
 `;
 
